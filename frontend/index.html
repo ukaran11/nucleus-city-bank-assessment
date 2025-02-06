@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kahf Tech</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <aside class="sidebar">
+      <div class="logo">
+        <img src="public/meta.png" alt="Kahf Tech" ></img>
+        <h1>Kahf Tech</h1>
+      </div>
+      <nav class="sidebar-start">
+        <ul>
+          <li class="icon-text"><img src="public/home.png"/><a  href="#">Dashboard</a></li>
+          <li class="icon-text"><img src="public/overview.png"/><a  href="#">Overview</a></li>
+          <li class="active icon-text"><img src="public/users.png"/><a  href="#">Customers</a></li>
+          <li class="icon-text"><img src="public/folder.png"/><a  href="#">Projects</a></li>
+          <li class="icon-text"><img src="public/box.png"/><a  href="#">Project files</a></li>
+          <li class="icon-text">
+            <img src="public/messages.png"/><a  href="#">Messages <span class="badge">4</span></a>
+          </li>
+          <li class="icon-text"><img src="public/bell.png"/><a  href="#">Notifications</a></li>
+        </ul>
+      </nav>
+      <div class="bottom-section">
+        <nav>
+          <ul>
+            <li class="icon-text"><img src="public/flag-alt.png"/><a href="#">Support</a></li>
+            <li class="icon-text"><img src="public/settings.png"/><a href="#">Settings</a></li>
+        <div class="user-profile">
+          <div class="user-details">
+            <div class="user-image">
+              <img src="public/user.png" alt="User Avatar" />
+            </div>
+            <div class="tuhel">
+              <h3>Tuhel Rana</h3>
+              <p>tuhelrana@gmail.com</p>
+            </div>
+          </div>
+          <div>
+            <img src="public/angles-up-down.png" alt="User Avatar" />
+          </div>
+        </div>
+      </div>
+    </aside>
+
+    <main class="content">
+      <header>
+        <div class="header-left">
+          <h2>Customers</h2>
+          <p>Find all platform customers here</p>
+        </div>
+        <div class="header-buttons">
+          <button class="export-btn">↑ Export CSV</button>
+          <button class="invite-btn">+ Invite customer</button>
+        </div>
+      </header>
+
+      <section class="customer-metrics">
+        <div class="metrics">
+          <h3 class="metrics-name">General customers</h3>
+            <div class="metrics-details">
+              <div class="value">11,450 </div>
+              <span class="change-positive">+2.15%</span>
+            </div>
+          </div>
+        </div>
+        <div class="metrics">
+          <h3>Admins</h3>
+          <div class="metrics-details">
+            <div class="value"> 812 </div>
+            <span class="change-negative">-0.34%</span>
+          </div>
+        </div>
+        <div class="metrics">
+          <h3>Creators</h3>
+          <div class="metrics-details">
+            <div class="value"> 83 </div>
+            <span class="change-positive">+1.18%</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="customer-list">
+        <div class="list-header">
+          <div>
+            <h3>All customers (12,345)</h3>
+          </div>
+          <div class="list-actions">
+            <div>
+              <button class="active">View all</button>
+              <button>General</button>
+              <button>Admin</button>
+              <button>Creator</button>
+            </div>
+            <div class="search-filter">
+              <div>
+                <input type="search" placeholder="Search" />
+              </div>
+              <div class="filter-comp">
+                
+                <button class="filter-btn">
+                    <img src="public/settings-sliders.png" alt="User Avatar" />
+                    Filters</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <table>
+          <thead>
+            <tr>
+              <th><input type="checkbox" /></th>
+              <th>Name</th>
+              <th>Role</th>
+              <th>Projects</th>
+              <th>Status</th>
+              <th>Enrolled</th>
+              <th></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><input type="checkbox" /></td>
+              <td>
+                <img src="public/user.png" alt="Avatar" class="avatar" /> Arlene
+                McCoy <br />
+                <span class="username">@arlene</span>
+              </td>
+              <td><span class="role-general">General</span></td>
+              <td>12/25</td>
+              <td>Active</td>
+              <td>May 12, 2019</td>
+              <td><img src="public/ellipsis-vertical-solid.svg" alt="User Avatar" /></td>
+            </tr>
+            <tr>
+              <td><input type="checkbox" /></td>
+              <td>
+                <img src="public/user.png" alt="Avatar" class="avatar" /> Brooklyn
+                Simmons <br />
+                <span class="username">@brooklyns</span>
+              </td>
+              <td><span class="role-admin">Admin</span></td>
+              <td>18/50</td>
+              <td>Active</td>
+              <td>August 7, 2017</td>
+              <td><img src="public/ellipsis-vertical-solid.svg" alt="User Avatar" /></td>
+            </tr>
+            <tr>
+              <td><input type="checkbox" /></td>
+              <td>
+                <img src="public/user.png" alt="Avatar" class="avatar" /> Maribel
+                Koss <br />
+                <span class="username">@maribelk</span>
+              </td>
+              <td><span class="role-general">General</span></td>
+              <td>7/25</td>
+              <td>Active</td>
+              <td>May 9, 2014</td>
+              <td><img src="public/ellipsis-vertical-solid.svg" alt="User Avatar" /></td>
+            </tr>
+            <tr>
+              <td><input type="checkbox" /></td>
+              <td>
+                <img src="public/user.png" alt="Avatar" class="avatar" /> Cody Fisher
+                <br />
+                <span class="username">@codyf</span>
+              </td>
+              <td><span class="role-creator">Creator</span></td>
+              <td>27/100</td>
+              <td>Active</td>
+              <td>October 24, 2018</td>
+              <td><img src="public/ellipsis-vertical-solid.svg" alt="User Avatar" /></td>
+            </tr>
+            <tr>
+              <td><input type="checkbox" /></td>
+              <td>
+                <img src="public/user.png" alt="Avatar" class="avatar" /> Dianne
+                Russell <br />
+                <span class="username">@dianner</span>
+              </td>
+              <td><span class="role-admin">Admin</span></td>
+              <td>32/50</td>
+              <td>Active</td>
+              <td>August 2, 2013</td>
+              <td><img src="public/ellipsis-vertical-solid.svg" alt="User Avatar" /></td>
+            </tr>
+            <tr>
+              <td><input type="checkbox" /></td>
+              <td>
+                <img src="public/user.png" alt="Avatar" class="avatar" /> Cody Fisher
+                <br />
+                <span class="username">@codyf</span>
+              </td>
+              <td><span class="role-creator">Creator</span></td>
+              <td>27/100</td>
+              <td>Active</td>
+              <td>October 24, 2018</td>
+              <td><img src="public/ellipsis-vertical-solid.svg" alt="User Avatar" /></td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+    </main>
+  </body>
+</html>
